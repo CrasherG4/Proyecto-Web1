@@ -1,0 +1,143 @@
+/* Nav Productos */
+.nav-productos{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-productos a{
+    text-decoration: none;
+    color: #232221;
+    transition: 0.2s ease;
+}
+.nav-productos a:hover{
+    color: #b22028;
+}
+.prod-anterior{
+    position: absolute;
+    left: 10%;
+}
+.prod-siguiente{
+    position: absolute;
+    right: 10%;
+}
+
+/* Diseño de la presentación */
+.contenedor-producto{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contenedor-producto h4{
+    font-size: small;
+    color: #b22028;
+}
+
+.c-img{
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    margin: 10px;
+}
+.c-img img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease-in-out;
+    object-fit: cover;
+}
+.c-img img:hover{
+    transform: scale(1.1);
+}
+.d-img{
+    padding-right: 2%;
+    font-size: smaller;
+    text-align: right;
+}
+
+.especificaciones{
+    display: flex;
+    margin-top: 20px;
+}
+.es-titulo h6{
+    font-weight: 500;
+    margin-right: 40px;
+}
+.es-descripcion h6{
+    font-weight: 250;
+}
+
+
+.descripcion{
+    padding-right: 2%;
+    text-align: justify;
+    width: 65%;
+}
+.descripcion p{
+    font-size: small;
+    font-weight: 400;
+}
+.descripcion h2{
+    font-size: 30px;
+}
+.descripcion h3{
+    font-size: medium;
+    font-weight: 600;
+}
+.descripcion i{
+    color: #e0c565;
+}
+.personas-rating{
+    display: flex;
+}
+.personas-rating div{
+    font-size: smaller;
+    margin-right: 20px;
+}
+.precio-descuento{
+    color: #b22028;
+    font-size: 30px;
+    padding-right: 5px;
+}
+.precio-descipcion{
+    display: flex;
+}
+.precio-sin-descuento{
+    display: flex;
+    font-size: small;
+}
+.precio-original{
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+
+.barra-compras{
+    width: 15%;
+    height: 100%;
+    padding: 10px;
+    font-size: small;
+    border: 2px solid #eeede3;
+    border-radius: 6px;
+    text-align: justify;
+}
+.bi-map {
+    font-size: medium;
+}
+.barra-compras h3{
+    color: #e0c565;
+    font-size: medium;
+}
+.precio-barra{
+    display: flex;
+}
+.precio-moneda{
+    font-size: small;
+    padding-top: 7px;
+}
+.precio-total{
+    font-size: 30px;
+    font-weight: 400;
+}
+.precio-decimal{
+    font-size: small;
+    padding-top: 7px;
+}

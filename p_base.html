@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creator Studio</title>
+    <title>CreatorStudio</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Css -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/baseProductos.css">
     <link rel="stylesheet" href="css/headFooter.css">
 
     <!-- Imagen Página -->
@@ -41,71 +41,98 @@
         </nav>
     </header>
 
-    <!-- Texto -->
-    <h1 class="nombre">CREATOR STUDIO</h1>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-md-10 mx-auto border p-2 border-2">
-                <div id="carrusel" class="carousel slide carrusel_c">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="css/src/img/C/C1.jpg" class="d-block w-100" alt="Imagen de PURESOUD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="css/src/img/C/C2.jpg" class="d-block w-100" alt="Imagen de MASTRACK">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="css/src/img/C/C3.jpg" class="d-block w-100" alt="Imagen de ARKTFAN">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+    <!-- Nav productos -->
+    <div class="nav-productos">
+        <span class="prod-anterior"><a href=""><i class="bi bi-chevron-left"></i>Producto Anterior</a></span>
+        <span class="prod-siguiente"><a href="">Producto Siguiente<i class="bi bi-chevron-right"></i></a></span>
+    </div>
+
+    <!-- Presentación y compra del Producto -->
+    <div class="contenedor-producto">
+        <div class="c-img">
+            <img src="css/src/img/Productos/Producto2.png" alt="Imagen del Producto">
+            <div class="d-img">Previsualización del Producto</div>
+        </div>
+
+        <!-- Descripción -->
+        <div class="descripcion">
+            <h2>Razer BlackShark V2 X Auriculares para gamer: sonido envolvente 7.1, controladores de 1.9 ″, almohadillas de espuma viscoelástica, para computador, PS4, PS5 o Switch con conector de 3.5 mm, negros</h2>
+            <h4>Categoría: Auriculares, Sonido</h4>
+            <div class="rating">
+                4.5
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <div class="personas-rating">
+                <div>18,888 calificaciones</div>
+                <div>4 k+ comprados el mes pasado</div>
+            </div>
+            <hr>
+            <div class="precio-descipcion">
+                <span class="precio-descuento">-42%</span>
+                <span class="precio-moneda">US$</span>
+                <span class="precio-total">34</span>
+                <span class="precio-decimal">99</span>
+            </div>
+            <div class="precio-sin-descuento">
+                <span>Precio sin descuento:</span>
+                <span class="precio-original">US$59.99</span>
+            </div>
+            <p>
+                Sin depósito de derechos de importación y US$34.31 de envío a Ecuador. Entrega el lunes, 5 de agosto. Realiza el pedido en 22 hrs 15 mins
+            </p>
+            
+            <div class="especificaciones">
+                <div class="es-titulo">
+                    <h6>Marca</h6>
+                    <h6>Color</h6>
+                    <h6>Colocación en el odido</h6>
+                    <h6>Impedancia</h6>
+                </div>
+                <div class="es-descripcion">
+                    <h6>Razer</h6>
+                    <h6>Negro clásico</h6>
+                    <h6>Over ear</h6>
+                    <h6>32 Ohmio</h6>
                 </div>
             </div>
+            <hr>
+            <div>
+                <h3>Sobre este producto</h3>
+                <ul>
+                    <li>Cancelación pasiva avanzada del ruido: las cazoletas cerradas resistentes cubren completamente las orejas para evitar que el ruido entre en los auriculares, y sus almohadillas proporcionan un sellado más prieto para aislar más del ruido.</li>
+                    <li>Sonido envolvente 7.1 para audio posicional: equipados con controladores personalizados de 1.97 pulgadas; admiten sonido envolvente habilitado por software (solo disponible para Windows 10 de 64 bits).</li>
+                    <li>Controladores de sonido de alta gama de 1.97 pulgadas de titanio Triforce: con diafragmas recubiertos de titanio para mayor claridad; nuestro nuevo diseño patentado de vanguardia divide el controlador en 3 partes para proporcionar afinación individual de agudos, medios y bajos, lo que brinda un audio más brillante y claro con agudos más ricos y bajos más potentes.</li>
+                    <li>Diseño ligero y almohadillas de espuma transpirables para las orejas: tan solo 8.47 oz; los BlackShark V2X están diseñados desde cero para proporcionarte la máxima comodidad.</li>
+                    <li>Micrófono cardioide Hyperclear: el patrón de captación mejorado garantiza más voz y menos ruido, ya que se estrecha hacia la parte trasera y los lados del micrófono.</li>
+                    <li>Compatibilidad con diversas plataformas: funciona con computadoras, Mac, PS4, Xbox One y Nintendo Switch a través de conector Jack de 3.5 mm; disfrutarás de mejor audio en casi todas las plataformas.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Barra de compras -->
+        <div class="barra-compras">
+            <div class="precio-barra">
+                <span class="precio-moneda">US$</span>
+                <span class="precio-total">34</span>
+                <span class="precio-decimal">99</span>
+            </div>
+            <br>
+            <p>
+                Sin depósito de derechos de importación y US$34.31 de envío a Ecuador.<br>Entrega el lunes, 5 de agosto. Realiza el pedido en 22 hrs 15 mins
+            </p>
+            <p>
+                <i class="bi bi-map"></i> Entregas a Ecuador
+            </p>
+            <h3>Disponible</h3>
         </div>
     </div>
 
-    <main class="info-main">
-        <h2>Líder en la creación de Productos</h2>
-        <div class="container-cards">
-            <div class="card">
-                <figure>
-                    <img src="css/src/img/Productos/Producto1.png" alt="">
-                </figure>
-                <div class="contenido">
-                    <h3>AURICULARES ASUS</h3>
-                    <p>Descubre la libertad total con los auriculares ROG Cetra True Wireless de Asus, diseñados para llevar tu experiencia de juego al siguiente nivel. Con conexión inalámbrica de baja latencia, cancelación activa de ruido (ANC)</p>
-                    <a href="productos.html">Leer más</a>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="css/src/img/Productos/Producto2.png" alt="">
-                </figure>
-                <div class="contenido">
-                    <h3>Logitech G335 Negros</h3>
-                    <p>Los auriculares Logitech G335 destacan por su increíble ligereza, pesando solo 240 gramos. La banda de sujeción ajustable y las almohadillas de espuma viscoelástica se adaptan perfectamente a la forma de tu cabeza, proporcionando un confort excepcional.</p>
-                    <a href="p_base.html">Leer más</a>
-                </div>
-            </div>
-        </div>
-    </main>
     <br>
-    
-    <div class="banner">
-        <div class="slider" style="--quantity: 4">
-            <div class="item" style="--position: 1"><img src="css/src/img/Arktfan.jpg" alt=""></div>
-            <div class="item" style="--position: 2"><img src="css/src/img/Mastrack.jpg" alt=""></div>
-            <div class="item" style="--position: 3"><img src="css/src/img/Provision.jpg" alt=""></div>
-            <div class="item" style="--position: 4"><img src="css/src/img/Puresound.jpg" alt=""></div>
-        </div>
-    </div>
+
 </body>
 <footer>
     <h3>Nuestras Redes</h3>

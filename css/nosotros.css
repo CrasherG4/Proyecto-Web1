@@ -33,18 +33,43 @@ main p{
 
 /* Forms */
 .contenedor-all{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
-.contenedor-forms{
+.form-reg{
+    padding: 10%;
     border-radius: 4px;
     background-color: #eeede3;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-
-.forms{
-    margin: 25px;
-    background-color: #eeede3;
+.form-reg label{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+.form-reg input{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    border: solid #ffffff;
+    border-radius: 6px;
+}
+.form-reg input:hover{
+    border: solid #ffffff;
+}
+.boton-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    background-color: #232221;
+    color: #ffffff;
+    transition: all 0.6s ease;
+}
+.boton-submit:hover{
+    background-color: #e0c565;
+    color: #ffffff;
 }

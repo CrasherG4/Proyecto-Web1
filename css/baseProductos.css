@@ -155,11 +155,11 @@
     background-size: 300%;
     border-radius: 6px;
     transform: none;
-    transition: all 1 ease;
+    transition: all 0.6s ease;
 }
 .btn-comprar:hover{
     background-position: 100%;
-    color: #232221;
+    color: #ffff;
 }
 .proveedor{
     display: flex;
